@@ -5,60 +5,116 @@ For each task, beneath the comment write the code and print out the result to ch
 '''
 
 '''LISTS'''
+#
+## Create a list and assign it to a variable
+name = 'aleida'
+arr = list(name)
+#print(arr)
+#
+## Find the length of the list
+#print(len(arr))
+#
+## Append an item to the list
+#
+last_name = 'vieyra'
+last_name = list(last_name)
+arr = arr + last_name
+#print(arr)
+#
+## Find the value of an item in the list a specific index
+#print(arr[-1])
+## Set the value of an item at a specific index
+#
+#arr[-1] = '@'
+#print(arr)
+#
+## Check whether an item is in the list
+#
+#print('@' in arr)
+#
+## Sort the list
+#sorted_arr = sorted(arr)
+#print(sorted_arr)
+#
+## Iterate over the list using range, printing out each element and the index
+#
+#for element in range(len(arr)):
+#	print(arr[element], element)
+#
+## Iterate over the list without using range, printing out each element
+#for char in arr:
+#	print(char)
+#
+#i = 0
+#while i < len(arr):
+#	print(arr[i])
+#	i += 1
 
-# Create a list and assign it to a variable
-
-# Find the length of the list
-
-# Append an item to the list
-
-# Find the value of an item in the list a specific index
-
-# Set the value of an item at a specific index
-
-# Check whether an item is in the list
-
-# Sort the list
-
-# Iterate over the list using range, printing out each element and the index
-
-# Iterate over the list without using range, printing out each element
 
 '''TUPLES'''
 
 # Create a tuple and assign it to a variable
 
+toop = tuple(arr)
+
 # Find the length of the tuple
+print(len(toop))
+print(toop)
 
 # Find the value of an item in the tuple a specific index
-
+print(toop[9])
 # Check whether an item is in the tuple
+print("a" in toop)
 
 # Iterate over the tuple using range, printing out each element and the index
 
+for i in range(len(toop)):
+	print(toop[i], i)
+
 # Iterate over the tuple without using range, printing out each element
+
+for char in toop:
+	print(char)
 
 '''STRINGS'''
 
 # Create a string and assign it to a variable
+new_str = 'variable'
 
 # Find the length of the string
+len(new_str)
 
 # Find the value of an character in the string a specific index
+print(new_str[0])
 
 # Check whether an item is in the string
-
+print('o' in new_str)
 # Concatenate (add) two strings together
 
+add_str = 'practice'
+
+print(new_str+" " +add_str)
+
 # Create an f-string
+f_string = f"This {new_str} is printed inside an f-string in python."
+print(f_string)
 
 # Split a string using .split
-
+f_string = f_string.split()
+print(f_string)
 # Join a list of strings using .join
 
+joined_str = " ".join(f_string)
+print(joined_str)
+
 # Iterate over the string using range, printing out each character and the index
+for i in range(len(joined_str)):
+	print(joined_str[i], i)
 
 # Iterate over the string without using range, printing out each character
+
+for char in joined_str:
+	print(char)
 
 '''DICTIONARIES'''
 
