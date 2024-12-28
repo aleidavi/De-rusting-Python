@@ -7,20 +7,31 @@ For each task, beneath the comment write the code and print out the result to ch
 '''LISTS'''
 
 # Create a list and assign it to a variable
+arr = ['a', 'l', 'e', 'i', 'd', 'a']
 
 # Find the length of the list
+len_arr = len(arr)
+print(len_arr)
 
 # Append an item to the list
+arr.append('vieyra')
 
 # Find the value of an item in the list a specific index
+last_name = arr[6]
 
 # Set the value of an item at a specific index
+arr[6] = 'rios'
 
 # Check whether an item is in the list
 
+return ('rios' in arr)
+
 # Sort the list
 
+sorted_arr = arr.sort()
+
 # Iterate over the list using range, printing out each element and the index
+
 
 # Iterate over the list without using range, printing out each element
 
